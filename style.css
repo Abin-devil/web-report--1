@@ -1,0 +1,255 @@
+
+html
+{
+    scroll-behavior: smooth;
+
+}
+body
+{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url("hollywood/peaky\ blinders.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+header
+{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+}
+
+.logo{
+    margin-left: 60px;
+    margin-top: 50px; 
+}
+.logo img{
+    height: 15vh;   
+}
+.logo h3{
+    color: red;
+    font-size: 25px;
+    margin-top:-15px;
+    margin-left: 50px; 
+}
+.nav ul{
+    display: flex;
+}
+.nav ul li{
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    padding: 0px 20px;
+    color:white;
+}
+.nav ul li a:hover{
+    color: red;
+    font-weight: bold;
+}
+.icons{
+    cursor: pointer;
+    color: red;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.icons a{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    padding: 10px 20px;
+
+}
+.icons a:hover{
+    background-color: black;
+    color: red;
+    font-weight: bolder;
+}
+.icons i{
+    font-size: 20px;
+    margin-right: 10px;
+    padding: 0px 14px;
+}
+
+.homepage{
+    position: absolute;
+    color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.inside-homepage{
+    line-height: 1;
+}
+
+.inside-homepage h1{
+    font-size: 50px;
+}
+
+.inside-homepage p{
+    font-size: 17px;
+}
+
+span{
+    color: white;
+    font-weight: bold;
+}
+
+.line1{
+    height: 2px;
+    color: red;
+    width: 12%;
+    margin-left: 0%;
+    margin-top: 0%;
+    position: absolute;
+}
+
+.poster{
+margin-top: 130px;
+margin-right: 150px;
+}
+
+.poster img{
+    height: 320px;
+    float: right;
+    border-radius: 10px;
+}
+
+.button{
+    margin-top: 20px;
+}
+
+.button a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+    background: red;
+    border-radius: 20px;
+}
+.button a:hover{
+    background: black;
+    color: red;
+}
+.button i{
+    color: black;
+    padding: 0px 10px;
+}
+.latest-movies{
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    margin-top: 100px;
+    padding: 0px 20px;
+}
+.latest-movies h1{
+    font-size: 20px;
+    color: red;
+    margin-top: 50px;
+}
+
+.latest-container{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.inside-latest img{
+    height: 150px;
+    padding: 2px;
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+}
+
+.inside-latest img:hover{
+    transform: scale(1.2);
+}
+
+.inside-latest img{
+    height: 300px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.heading1{
+    color: white;
+    line-height: 1.5;
+}
+.heading1 h4{
+    font-size: 15px;
+    
+}
+.heading1 h6{
+    font-size: 12px;
+
+}
+.button1{
+    margin-top: -50px;
+    margin-left: 120px;
+    justify-content: space-around;
+    float: left;
+}
+.button1 a{
+    text-decoration: none;
+    font-size: 12px;
+    background-color: red;
+    padding: 7px 7px;
+    color: white;
+    border-radius: 20%;
+}
+.hollywood-movies{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    padding: 0px 20px;
+    color: white;
+    margin-top: 1100px;
+    margin-left: 0;
+}
+.hollywood-movies h1{
+    font-size: 20px;
+    color: red;
+}
+.hollywood-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0;
+}
+.inside-hollywood h3{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 6px;
+}
+.inside-hollywood img{
+    height: 300px;
+    width: 200px;
+    border-radius: 20px;
+    transition: all 500ms ease-in-out;
+}
+.inside-hollywood img:hover{
+    transform: scale(1.1);
+}
+
+.imbd{
+    background-color: red;
+    border-radius: 65px;
+    position: relative;
+    padding: 8px 8px;
+    color: white;
+    margin-top: -120px;
+    margin-left: 155px;
+    font-weight: bolder;
+}
+.imbd p{
+    font-size: 12px;
+}
