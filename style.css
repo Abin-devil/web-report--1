@@ -2,6 +2,9 @@
 html
 {
     scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 
 }
 body
@@ -206,24 +209,25 @@ margin-right: 150px;
 }
 .hollywood-movies{
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     background-color: black;
     padding: 0px 20px;
     color: white;
-    margin-top: 1100px;
-    margin-left: 0;
+    margin-top: 1000px;
+    margin-left: -10px;
 }
 .hollywood-movies h1{
     font-size: 20px;
     color: red;
 }
 .hollywood-container{
+    padding: 10px 0px;
     margin-top: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    margin-left: 0;
+    margin-left: -5;
 }
 .inside-hollywood h3{
     font-size: 15px;
@@ -237,7 +241,7 @@ margin-right: 150px;
     transition: all 500ms ease-in-out;
 }
 .inside-hollywood img:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .imbd{
@@ -251,5 +255,92 @@ margin-right: 150px;
     font-weight: bolder;
 }
 .imbd p{
+    font-size: 12px;
+}
+.search{
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchbar{
+    width: 100%;
+    max-width: 700px;
+    background: rgba(255, 255, 255, 0.212);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+.searchbar input{
+    background: transparent;
+    flex: 1;
+    outline: none;
+    border: 0;
+    padding:  24px 20px;
+    font-size: 20px;
+    color:white;
+}
+::placeholder{
+    color: white;
+}
+
+.searchbar button img{
+    border: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.bollywood-movies{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    padding: 0px 20px;
+    color: white;
+    margin-top: 1450px;
+    margin-left: -10px;
+}
+.bollywood-movies h1{
+    font-size: 20px;
+    color: red;
+}
+.bollywood-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.inside-bollywood h3{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 6px;
+}
+.inside-bollywood img{
+    height: 300px;
+    width: 200px;
+    border-radius: 20px;
+    transition: all 500ms ease-in-out;
+}
+.inside-bollywood img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.imbd1{
+    background-color: red;
+    border-radius: 65px;
+    position: relative;
+    padding: 8px 8px;
+    color: white;
+    margin-top: -120px;
+    margin-left: 155px;
+    font-weight: bolder;
+}
+.imbd1 p{
     font-size: 12px;
 }
