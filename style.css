@@ -215,7 +215,7 @@ margin-right: 150px;
     padding: 0px 20px;
     color: white;
     margin-top: 1000px;
-    margin-left: -10px;
+    margin-left: -25px;
 }
 .hollywood-movies h1{
     font-size: 20px;
@@ -259,7 +259,7 @@ margin-right: 150px;
 }
 .search{
     width: 100%;
-    height: 100%;
+    height: 90vh;
     padding: 0%;
     background-position: center;
     display: flex;
@@ -343,4 +343,11 @@ margin-right: 150px;
 }
 .imbd1 p{
     font-size: 12px;
+}
+.search--icon{
+    color: red;
+    font-size: 2rem;
+    margin: .5rem;
+    cursor: pointer;
+    
 }
